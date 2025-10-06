@@ -10,10 +10,10 @@
 <br>
 
 # 프로젝트 리스트 
- - 이터널 리턴 모작(#directX11-Eternal-Return)
- - Brotato 모작(#direct2D-Brotato)
- - 프로젝트 아글라이아(#unity-Project-Agliar)
- - 프로젝트 정명(#unity-Project-Teimei)
+ - [이터널 리턴 모작](#directX11-Eternal-Return)
+ - [Brotato 모작](#direct2D-Brotato)
+ - [프로젝트 아글라이아](#unity-Project-Agliar)
+ - [프로젝트 정명](#unity-Project-Teimei)
 
 ## DirectX11 Eternal Return([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
 
