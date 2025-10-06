@@ -8,13 +8,13 @@
 > 문제가 생기면 <b>왜? 어떻게? 그리고?</b>를 생각하며 풀어나갑니다. <br>
 > 협업, 팀 프로젝트를 진행할 때, 언제나 <b>상대방의 말을 끝까지 듣고 그렇게 말한 이유</b>를 생각한 다음, 말하려고 합니다. 
 
-
+<br>
 # 🖥️ 프로젝트 리스트 
  - [이터널 리턴 모작](#directX11-eternal-return)
  - [Brotato 모작](#direct2d-brotato)
  - [프로젝트 아글라이아](#unity-project-agliar)
  - [프로젝트 정명](#unity-project-teimei)
-
+<br>
 
 ## ⚔️DirectX11 Eternal Return
 
@@ -38,7 +38,7 @@
  - 메인 게임 화면 UI 구성. 
 
 ### [시연 영상](https://youtu.be/b6XVkd0xc-E?si=vMBVltpWKHP4UM11)
-
+<br>
 
 ## 🕹️Direct2D Brotato
 
@@ -59,7 +59,7 @@
  - 컴포넌트 기능(Transform, Collider, Rigidbody, Image) 구현
 
 ### [시연 영상](https://youtu.be/d-VZS1AdvtA?si=LsgWayJvOPfWndK6)
-
+<br>
 
 ## ⚔️Unity Project Agliar
 
@@ -79,7 +79,7 @@
  - UI 설계 및 매니저 연동
 
 ### [시연 영상](https://youtu.be/D69DiS6V-uI?si=19k-QeCQU1Tfo820)
-
+<br>
 
 ## 🕹️Unity-Project-Teimei
 
