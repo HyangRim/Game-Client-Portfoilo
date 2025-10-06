@@ -10,14 +10,14 @@
 <br>
 
 # 🖥️ 프로젝트 리스트 
- - [이터널 리턴 모작](#directX11-이터널-리턴)
+ - [이터널 리턴 모작](#directX11-eternal-return)
  - [Brotato 모작](#direct2d-brotato)
  - [프로젝트 아글라이아](#unity-project-agliar)
  - [프로젝트 정명](#unity-project-teimei)
 
 <br>
 
-## ⚔️DirectX11 이터널 리턴
+## ⚔️DirectX11 Eternal Return
 
 > 작업 기간 - (2025.06 ~ 2025.08)(2달 반)<br>
 > 참여 인원 - 2인
