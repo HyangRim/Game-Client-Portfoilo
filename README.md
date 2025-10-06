@@ -15,10 +15,13 @@
  - [프로젝트 아글라이아](#unity-project-agliar)
  - [프로젝트 정명](#unity-project-teimei)
 
-## DirectX11 Eternal Return([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
+## DirectX11 Eternal Return
 
-> (2025.06 ~ 2025.08)(2달 반)
+> (2025.06 ~ 2025.08)(2달 반)<br>
 > 참여 인원 - 2인
+
+## ([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
+
 
 ### 사용 기술 및 도구
 - DirectX11, C++, Git, Imgui, FMOD
@@ -39,10 +42,12 @@
 ### [시연 영상](https://youtu.be/b6XVkd0xc-E?si=vMBVltpWKHP4UM11)
 
 
-## Direct2D Brotato([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
+## Direct2D Brotato
 
-> (2025.02 ~ 2025.03)(3주)
+> (2025.02 ~ 2025.03)(3주)<br>
 > 참여 인원 - 2인
+
+## ([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
 
 ### 사용 기술 및 도구
 - Direct2D, C++, Git, FMOD
@@ -61,10 +66,12 @@
 ### [시연 영상](https://youtu.be/d-VZS1AdvtA?si=LsgWayJvOPfWndK6)
 
 
-## Unity Project Agliar([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
+## Unity Project Agliar
 
-> (2024.10 ~ 2024.12)(3달)
+> (2024.10 ~ 2024.12)(3달)<br>
 > 참여 인원 - 3인
+
+## ([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
 
 ### 사용 기술 및 도구
 - Unity, C#, Plastic SCM, Blender
@@ -81,10 +88,12 @@
 ### [시연 영상](https://youtu.be/D69DiS6V-uI?si=19k-QeCQU1Tfo820)
 
 
-## Unity-Project-Teimei([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
+## Unity-Project-Teimei
 
-> (2023.06 ~ 2024.08)(1년 2개월)
+> (2023.06 ~ 2024.08)(1년 2개월)<br>
 > 참여 인원 - 2인
+
+## ([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
 
 ### 사용 기술 및 도구
 - Unity, C#, Plastic SCM
