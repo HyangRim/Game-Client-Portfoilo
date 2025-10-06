@@ -22,14 +22,14 @@
 > 작업 기간 - (2025.06 ~ 2025.08)(2달 반)<br>
 > 참여 인원 - 2인
 
-## [상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC)
+## [상세내용]()
 
 
 ### 사용 기술 및 도구
 - DirectX11, C++, Git, Imgui, FMOD
 
 
-### 담당 업무 및 경험. (누르면 세부 사항으로 이동합니다.)
+### 담당 업무 및 경험.
  - 게임 엔진 제작(렌더링 파이프라인, 충돌, Imgui 연동, 셰이더 제작, 포스트 프로세싱)
  - 쿼드 트리(공간 분할)를 사용한 렌더링, 충돌 최적화 
  - 컴포넌트 기능(Transform, Collider, Rigidbody, Renderer, Camera등) 구현
@@ -46,7 +46,7 @@
 > 작업 기간 - (2025.02 ~ 2025.03)(3주)<br>
 > 참여 인원 - 2인
 
-## [상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC)
+## [상세내용]()
 
 ### 사용 기술 및 도구
 - Direct2D, C++, Git, FMOD
@@ -67,7 +67,7 @@
 > 작업 기간 - (2024.10 ~ 2024.12)(3달)<br>
 > 참여 인원 - 3인
 
-## [상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC)
+## [상세내용]()
 
 ### 사용 기술 및 도구
 - Unity, C#, Plastic SCM, Blender
@@ -87,7 +87,7 @@
 > 작업 기간 - (2023.06 ~ 2024.08)(1년 2개월)<br>
 > 참여 인원 - 2인
 
-## [상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC)
+## [상세내용]()
 
 ### 사용 기술 및 도구
 - Unity, C#, Plastic SCM
@@ -101,4 +101,3 @@
  - 캐릭터 디자인, 보스전 BGM, 효과음 제작. 
 
 ### [시연 영상](https://www.youtube.com/watch?v=XbZoAy9n9t4)
-
