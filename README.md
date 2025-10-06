@@ -1,4 +1,4 @@
-# Game-Client-Portfoilo
+# 📑Game-Client-Portfoilo
 # 박인수 포트폴리오
 
 ## <b> C++, DirectX11, Unity </b>
@@ -9,18 +9,18 @@
 > 협업, 팀 프로젝트를 진행할 때, 언제나 <b>상대방의 말을 끝까지 듣고 그렇게 말한 이유</b>를 생각한 다음, 말하려고 합니다. 
 <br>
 
-# 프로젝트 리스트 
+# 🖥️ 프로젝트 리스트 
  - [이터널 리턴 모작](#directX11-eternal-return)
  - [Brotato 모작](#direct2d-brotato)
  - [프로젝트 아글라이아](#unity-project-agliar)
  - [프로젝트 정명](#unity-project-teimei)
 
-## DirectX11 Eternal Return
+## ⚔️DirectX11 Eternal Return
 
-> (2025.06 ~ 2025.08)(2달 반)<br>
+> 작업 기간 - (2025.06 ~ 2025.08)(2달 반)<br>
 > 참여 인원 - 2인
 
-## ([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
+## [상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC)
 
 
 ### 사용 기술 및 도구
@@ -37,17 +37,15 @@
  - 델리게이트 기능 구현
  - 메인 게임 화면 UI 구성. 
 
-<br>
-
 ### [시연 영상](https://youtu.be/b6XVkd0xc-E?si=vMBVltpWKHP4UM11)
 
 
-## Direct2D Brotato
+## 🕹️Direct2D Brotato
 
-> (2025.02 ~ 2025.03)(3주)<br>
+> 작업 기간 - (2025.02 ~ 2025.03)(3주)<br>
 > 참여 인원 - 2인
 
-## ([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
+## [상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC)
 
 ### 사용 기술 및 도구
 - Direct2D, C++, Git, FMOD
@@ -61,17 +59,15 @@
  - 팩토리 패턴을 사용한 오브젝트 생성
  - 컴포넌트 기능(Transform, Collider, Rigidbody, Image) 구현
 
-<br>
-
 ### [시연 영상](https://youtu.be/d-VZS1AdvtA?si=LsgWayJvOPfWndK6)
 
 
-## Unity Project Agliar
+## ⚔️Unity Project Agliar
 
-> (2024.10 ~ 2024.12)(3달)<br>
+> 작업 기간 - (2024.10 ~ 2024.12)(3달)<br>
 > 참여 인원 - 3인
 
-## ([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
+## [상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC)
 
 ### 사용 기술 및 도구
 - Unity, C#, Plastic SCM, Blender
@@ -83,17 +79,15 @@
  - Photon을 통한 PVP 네트워크
  - UI 설계 및 매니저 연동
 
-<br>
-
 ### [시연 영상](https://youtu.be/D69DiS6V-uI?si=19k-QeCQU1Tfo820)
 
 
-## Unity-Project-Teimei
+## 🕹️Unity-Project-Teimei
 
-> (2023.06 ~ 2024.08)(1년 2개월)<br>
+> 작업 기간 - (2023.06 ~ 2024.08)(1년 2개월)<br>
 > 참여 인원 - 2인
 
-## ([상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC))
+## [상세내용](https://github.com/Mekdlsdl/Game-Client-Programmer-Portfolio/blob/main/DETAIL.md#-%EC%BF%A1%EC%95%A4%EB%AA%AC%EC%8A%A4%ED%84%B0-%ED%95%A0%EB%A8%B8%EB%8B%88%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC)
 
 ### 사용 기술 및 도구
 - Unity, C#, Plastic SCM
@@ -106,8 +100,6 @@
  - 다국어 로컬라이징(CSV파일 사용)
  - 싱글톤 매니저(오디오, 대화, 전투등)
  - 캐릭터 디자인, 보스전 BGM, 효과음 제작. 
-
-<br>
 
 ### [시연 영상](https://www.youtube.com/watch?v=XbZoAy9n9t4)
 
