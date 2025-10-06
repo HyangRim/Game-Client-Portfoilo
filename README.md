@@ -7,13 +7,14 @@
 > 문제를 해결할 때 언제나 <b>이유가 있는 코드</b>를 작성하려고 합니다.<br> 
 > 문제가 생기면 <b>왜? 어떻게? 그리고?</b>를 생각하며 풀어나갑니다. <br>
 > 협업, 팀 프로젝트를 진행할 때, 언제나 <b>상대방의 말을 끝까지 듣고 그렇게 말한 이유</b>를 생각한 다음, 말하려고 합니다. 
-
 <br>
+
 # 🖥️ 프로젝트 리스트 
  - [이터널 리턴 모작](#directX11-eternal-return)
  - [Brotato 모작](#direct2d-brotato)
  - [프로젝트 아글라이아](#unity-project-agliar)
  - [프로젝트 정명](#unity-project-teimei)
+
 <br>
 
 ## ⚔️DirectX11 Eternal Return
