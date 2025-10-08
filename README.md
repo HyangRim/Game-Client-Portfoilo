@@ -3,7 +3,7 @@
 
 ## <b> C++, DirectX11, Unity </b>
 
-> DirectX11, Unity를 사용한 게임 프로그래머 박인수입니다. <br>
+> <b>DirectX11, Unity</b>를 사용한 게임 프로그래머 박인수입니다. <br>
 > 문제를 해결할 때 언제나 <b>이유가 있는 코드</b>를 작성하려고 합니다.<br> 
 > 문제가 생기면 <b>왜? 어떻게? 그리고?</b>를 생각하며 풀어나갑니다. <br>
 > 협업, 팀 프로젝트를 진행할 때, 언제나 <b>상대방의 말을 끝까지 듣고 그렇게 말한 이유</b>를 생각한 다음, 말하려고 합니다. 
@@ -24,7 +24,7 @@
 
 
 ### 사용 기술 및 도구
-- DirectX11, C++, Git, Imgui, FMOD
+- <b>DirectX11, C++</b>, Git, Imgui, FMOD
 
 
 ### 담당 업무 및 경험.
@@ -46,7 +46,7 @@
 
 
 ### 사용 기술 및 도구
-- Direct2D, C++, Git, FMOD
+- <b>Direct2D, C++</b>, Git, FMOD
 
 
 ### 담당 업무 및 경험. (누르면 세부 사항으로 이동합니다.)
@@ -66,7 +66,7 @@
 
 
 ### 사용 기술 및 도구
-- Unity, C#, Plastic SCM, Blender
+- <b>Unity, C#</b>, Plastic SCM, Blender
 
 
 ### 담당 업무 및 경험. (누르면 세부 사항으로 이동합니다.)
@@ -85,7 +85,7 @@
 
 
 ### 사용 기술 및 도구
-- Unity, C#, Plastic SCM
+- <b>Unity, C#</b>, Plastic SCM
 
 
 ### 담당 업무 및 경험. (누르면 세부 사항으로 이동합니다.)
