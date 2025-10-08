@@ -17,7 +17,7 @@
 
 <br>
 
-## ⚔️DirectX11 Eternal Return
+## ⚔️DirectX11 이터널 리턴 모작
 
 > 작업 기간 - (2025.06 ~ 2025.08)(2달 반)<br>
 > 참여 인원 - 2인
@@ -41,7 +41,7 @@
 ### [시연 영상](https://youtu.be/b6XVkd0xc-E?si=vMBVltpWKHP4UM11)
 <br>
 
-## 🕹️Direct2D Brotato
+## 🕹️Direct2D 브로타토 모작
 
 > 작업 기간 - (2025.02 ~ 2025.03)(3주)<br>
 > 참여 인원 - 2인
@@ -62,7 +62,7 @@
 ### [시연 영상](https://youtu.be/d-VZS1AdvtA?si=LsgWayJvOPfWndK6)
 <br>
 
-## ⚔️Unity Project Agliar
+## ⚔️Unity 프로젝트 아글라이아
 
 > 작업 기간 - (2024.10 ~ 2024.12)(3달)<br>
 > 참여 인원 - 3인
@@ -82,7 +82,7 @@
 ### [시연 영상](https://youtu.be/D69DiS6V-uI?si=19k-QeCQU1Tfo820)
 <br>
 
-## 🕹️Unity-Project-Teimei
+## 🕹️Unity 프로젝트 정명
 
 > 작업 기간 - (2023.06 ~ 2024.08)(1년 2개월)<br>
 > 참여 인원 - 2인
