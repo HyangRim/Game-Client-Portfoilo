@@ -12,40 +12,40 @@
         <h3>⚔️ 이터널 리턴 모작</h3>
         <br>
         <p align="left">
-          📖 <a href="#-게임-개요">게임 개요</a><br>
-          🔨 <a href="#-주요-개발">주요 개발</a><br>
-          🛠️ <a href="#-문제-해결">문제 해결</a><br>
-          📑 <a href="#-코드-샘플">코드 샘플</a>
+          📖 <a href="#게임-개요">게임 개요</a><br>
+          🔨 <a href="#주요-개발">주요 개발</a><br>
+          🛠️ <a href="#문제-해결">문제 해결</a><br>
+          📑 <a href="#코드-샘플">코드 샘플</a>
         </p>
       </td>
       <td valign="top" width="25%" align="center">
         <h3>🎯 Brotato 모작</h3>
         <br>
         <p align="left">
-          📖 <a href="#-게임-개요-1">게임 개요</a><br>
-          🔨 <a href="#-주요-개발-1">주요 개발</a><br>
-          🛠️ <a href="#-문제-해결-1">문제 해결</a><br>
-          📑 <a href="#-코드-샘플-1">코드 샘플</a>
+          📖 <a href="#게임-개요-1">게임 개요</a><br>
+          🔨 <a href="#주요-개발-1">주요 개발</a><br>
+          🛠️ <a href="#문제-해결-1">문제 해결</a><br>
+          📑 <a href="#코드-샘플-1">코드 샘플</a>
         </p>
       </td>
       <td valign="top" width="25%" align="center">
         <h3>✨ 프로젝트 아글라이아</h3>
         <br>
         <p align="left">
-          📖 <a href="#-게임-개요-2">게임 개요</a><br>
-          🔨 <a href="#-주요-개발-2">주요 개발</a><br>
-          🛠️ <a href="#-문제-해결-2">문제 해결</a><br>
-          📑 <a href="#-코드-샘플-2">코드 샘플</a>
+          📖 <a href="#게임-개요-2">게임 개요</a><br>
+          🔨 <a href="#주요-개발-2">주요 개발</a><br>
+          🛠️ <a href="#문제-해결-2">문제 해결</a><br>
+          📑 <a href="#코드-샘플-2">코드 샘플</a>
         </p>
       </td>
       <td valign="top" width="25%" align="center">
         <h3>🌟 프로젝트 정명</h3>
         <br>
         <p align="left">
-          📖 <a href="#-게임-개요-3">게임 개요</a><br>
-          🔨 <a href="#-주요-개발-3">주요 개발</a><br>
-          🛠️ <a href="#-문제-해결-3">문제 해결</a><br>
-          📑 <a href="#-코드-샘플-3">코드 샘플</a>
+          📖 <a href="#게임-개요-3">게임 개요</a><br>
+          🔨 <a href="#주요-개발-3">주요 개발</a><br>
+          🛠️ <a href="#문제-해결-3">문제 해결</a><br>
+          📑 <a href="#코드-샘플-3">코드 샘플</a>
         </p>
       </td>
     </tr>
@@ -90,7 +90,7 @@
 - **DirectX11**를 사용해 렌더링 파이프라인을 구축했음.
 - 컴포넌트 기반 구조를 통해 오브젝트에 기능을 부여함.
 - **트랜스폼, 충돌, 물리, 카메라, 조명** 등의 기능을 구현하였음.
-- **하이브리드 렌더링(디퍼드 + 포워드 렌더링)**을 기반으로 한 조명 최적화를 하였음.
+- **하이브리드 렌더링(디퍼드 + 포워드 렌더링)을 기반**으로 한 조명 최적화를 하였음.
 - **ImGui와 ImGuizmo를 통해 엔진에서 인스턴스를 조작**할 수 있음. 
 - FMOD를 통해 사운드 매니저를 구현하였음. 
 
@@ -143,9 +143,9 @@
 
 ### **🧩접근**
 
-- 1. 렌더링 방식에 대해 리서치를 거치며, 디퍼드 렌더링에 대해 알게 되고 **렌더링 파이프라인 전환**을 시작함.
-- 2. 하지만, 반투명한 UI를 디퍼드 렌더링만으로 표현할 수 없었음.
-- 3. 디퍼드 -> 포워드 -> 포스트 프로세싱의 렌더링 파이프라인을 설계함. 
+1. 렌더링 방식에 대해 리서치를 거치며, 디퍼드 렌더링에 대해 알게 되고 **렌더링 파이프라인 전환**을 시작함.
+2. 하지만, 반투명한 UI를 디퍼드 렌더링만으로 표현할 수 없었음.
+3. 디퍼드 -> 포워드 -> 포스트 프로세싱의 렌더링 파이프라인을 설계함. 
 
 ### **🔨결과**
 
@@ -172,9 +172,9 @@
 
 ### **🧩접근**
 
-- 1. '묘지 구역'의 Triangle은 709개. 길찾기 혹은 경로 최적화 단계에서 **709개의 삼각형을 전수조사하는 문제**를 발견. 디버깅 결과에서도 이 부분에서 대부분의 시간을 소모하는 것이 확인됨. 
-- 2. **맵 분할(Cell 구조)를 사용하면 시간 복잡도를 O(N) -> O(N / CellSize)로 줄일 수 있지 않을까 생각.**
-- 3. **Hash Map을 사용한 Grid 구조**로 검색할 삼각형의 갯수를 줄임 
+1. '묘지 구역'의 Triangle은 709개. 길찾기 혹은 경로 최적화 단계에서 **709개의 삼각형을 전수조사하는 문제**를 발견. 디버깅 결과에서도 이 부분에서 대부분의 시간을 소모하는 것이 확인됨. 
+2. **맵 분할(Cell 구조)를 사용하면 시간 복잡도를 O(N) -> O(N / CellSize)로 줄일 수 있지 않을까 생각.**
+3. **Hash Map을 사용한 Grid 구조**로 검색할 삼각형의 갯수를 줄임 
 
 <img width="879" height="633" alt="Image" src="https://github.com/user-attachments/assets/99cc9e62-9240-471b-a4ba-812aa6aa62a3" />
 <br>
@@ -182,10 +182,10 @@
 ### **🔨결과**
 
 - 1. 전수 조사 알고리즘
-<img width="1092" height="195" alt="Image" src="https://github.com/user-attachments/assets/500daca5-520b-430e-9e00-b3a506536524" />
+<img width="550" height="100" alt="Image" src="https://github.com/user-attachments/assets/500daca5-520b-430e-9e00-b3a506536524" />
 <br>
 - 2. Grid 구조 알고리즘 
-<img width="1125" height="214" alt="Image" src="https://github.com/user-attachments/assets/f4eb90ff-45eb-4bf6-995f-1e13665f778a" />
+<img width="550" height="100" alt="Image" src="https://github.com/user-attachments/assets/f4eb90ff-45eb-4bf6-995f-1e13665f778a" />
 
 - 전수 조사 방식에서 Grid 방식으로 탐색 구조를 개선한 결과, 테스트 환경에서 **396ms -> 25ms로 약 15.6배의 성능 향상**을 이루어냄. 
 
@@ -193,21 +193,21 @@
 
 ### **📄문제 상황 및 분석**
 
-<img width="980" height="435" alt="Image" src="https://github.com/user-attachments/assets/24b67cc1-e317-4f16-861d-4c8e4cc90edb" />
-<img width="1297" height="367" alt="Image" src="https://github.com/user-attachments/assets/b0736282-0679-4be5-a802-d88e8a356ae4" />
+<img width="490" height="215" alt="Image" src="https://github.com/user-attachments/assets/24b67cc1-e317-4f16-861d-4c8e4cc90edb" />
+<img width="650" height="367" alt="Image" src="https://github.com/user-attachments/assets/b0736282-0679-4be5-a802-d88e8a356ae4" />
 
 - **충돌 알고리즘은 2중 For문**으로 구성되어 있어 오브젝트 수가 증가할 수록, 지수적으로 성능이 하락함. 
 - **렌더링도 Scene의 모든 오브젝트를 GPU에 드로우콜**을 하기에 성능의 하락이 발생. 
 
 ### **🧩접근**
 
-- 1. 화면에 나오는 부분만 렌더링, 충돌 연산을 하면 될 것이라고 생각해 **공간 분할(쿼드 트리, 옥트리)구조**를 생각함.
-- 2. **이터널 리턴은 3D 게임이지만, 쿼터뷰에서 시점, 판정이 고정되어 있는 게임이라 구현이 용이한 쿼드 트리를 채택**함
-- 3. 쿼드 트리의 경계, 혹은 다른 노드에 **겹친 오브젝트의 판정은 각 노드에 중복으로 두어, Set을 사용한 중복체크**를 통해 처리를 함. 
+1. 화면에 나오는 부분만 렌더링, 충돌 연산을 하면 될 것이라고 생각해 **공간 분할(쿼드 트리, 옥트리)구조**를 생각함.
+2. **이터널 리턴은 3D 게임이지만, 쿼터뷰에서 시점, 판정이 고정되어 있는 게임이라 구현이 용이한 쿼드 트리를 채택**함
+3. 쿼드 트리의 경계, 혹은 다른 노드에 **겹친 오브젝트의 판정은 각 노드에 중복으로 두어, Set을 사용한 중복체크**를 통해 처리를 함. 
 
 ### **🔨결과**
 
-<img width="1228" height="566" alt="Image" src="https://github.com/user-attachments/assets/a8cfd7a1-0be2-43a8-ba1a-56c13109a594" />
+<img width="860" height="400" alt="Image" src="https://github.com/user-attachments/assets/a8cfd7a1-0be2-43a8-ba1a-56c13109a594" />
 
 - 렌더링, 픽킹은 **쿼드 트리 내부의 오브젝트 리스트를 가져와 렌더링**하는 방식으로 컬링하여 최적화함.
 - 충돌은 **쿼드 트리 내부의 같은 노드안의 오브젝트끼리만 충돌 체크**하여 최적화. 
@@ -222,19 +222,22 @@
 
 ### **🧩접근**
 
-- 1. 초기 대기 시간에서 **CPU의 유후시간을 발생시키는 부분이 리소스 로딩(I/O)**으로 파악함. 
-- 2. CPU의 유후를 줄일 방법은 I/O 집약적 작업을 다른 스레드로 맡기는 부분이라고 생각하였음. 
-- 3. 다른 작업과 별개로 분리할 수 있는 **UI 리소스 로딩/생성 부분을 다른 스레드로 분리하여, 멀티 스레드를 사용.**
+1. 초기 대기 시간에서 **CPU의 유후시간을 발생시키는 부분이 리소스 로딩(I/O)**으로 파악함. 
+2. CPU의 유후를 줄일 방법은 I/O 집약적 작업을 다른 스레드로 맡기는 부분이라고 생각하였음. 
+3. 다른 작업과 별개로 분리할 수 있는 **UI 리소스 로딩/생성 부분을 다른 스레드로 분리하여, 멀티 스레드를 사용.**
 
 ### **🔨결과**
 
-<img width="731" height="136" alt="Image" src="https://github.com/user-attachments/assets/e966dfec-af80-4800-b5bf-c9dc96a2a32a" />
+<img width="361" height="70" alt="Image" src="https://github.com/user-attachments/assets/e966dfec-af80-4800-b5bf-c9dc96a2a32a" />
 <br>
-<img width="697" height="128" alt="Image" src="https://github.com/user-attachments/assets/8e39fa62-b480-453c-a652-cb19c65de3c7" />
+<img width="350" height="70" alt="Image" src="https://github.com/user-attachments/assets/8e39fa62-b480-453c-a652-cb19c65de3c7" />
 
 - 멀티 스레딩 로딩을 통해 **초기 로딩 시간이 3350ms -> 3150ms로 약 7%의 로딩 시간을 단축.**
 
 # 📑코드 샘플 
+
+핵심, 중요 코드라고 생각되는 부분입니다. 
+## [중요 코드](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%EC%9D%B4%ED%84%B0%EB%84%90%20%EB%A6%AC%ED%84%B4%20%EB%AA%A8%EC%9E%91)
 
 # 🕹️ Brotato 모작
 
