@@ -22,7 +22,7 @@
 > 작업 기간 - (2025.06 ~ 2025.08)(2달 반)<br>
 > 참여 인원 - 2인
 
-## [상세내용]()
+## [상세내용](https://github.com/HyangRim/Game-Client-Portfoilo/blob/main/DETAIL.md#%EF%B8%8F-%EC%9D%B4%ED%84%B0%EB%84%90-%EB%A6%AC%ED%84%B4-%EB%AA%A8%EC%9E%91-1)
 
 
 ### 사용 기술 및 도구
