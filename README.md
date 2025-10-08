@@ -10,10 +10,10 @@
 <br>
 
 # 🖥️ 프로젝트 리스트 
- - [이터널 리턴 모작](#directX11-eternal-return)
- - [Brotato 모작](#direct2d-brotato)
- - [프로젝트 아글라이아](#unity-project-agliar)
- - [프로젝트 정명](#unity-project-teimei)
+ - [이터널 리턴 모작](#%EF%B8%8Fdirectx11-이터널-리턴-모작)
+ - [Brotato 모작](#%EF%B8%8Fdirect2d-브로타토-모작)
+ - [프로젝트 아글라이아](#%EF%B8%8Funity-프로젝트-아글라이아)
+ - [프로젝트 정명](#%EF%B8%8Funity-프로젝트-정명)
 
 <br>
 
