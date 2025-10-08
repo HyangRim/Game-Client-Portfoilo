@@ -17,12 +17,10 @@
 
 <br>
 
-## ⚔️DirectX11 이터널 리턴 모작
+## ⚔️DirectX11 이터널 리턴 모작 ([상세내용](https://github.com/HyangRim/Game-Client-Portfoilo/blob/main/DETAIL.md#%EF%B8%8F-%EC%9D%B4%ED%84%B0%EB%84%90-%EB%A6%AC%ED%84%B4-%EB%AA%A8%EC%9E%91-1))
 
 > 작업 기간 - (2025.06 ~ 2025.08)(2달 반)<br>
 > 참여 인원 - 2인
-
-## [상세내용](https://github.com/HyangRim/Game-Client-Portfoilo/blob/main/DETAIL.md#%EF%B8%8F-%EC%9D%B4%ED%84%B0%EB%84%90-%EB%A6%AC%ED%84%B4-%EB%AA%A8%EC%9E%91-1)
 
 
 ### 사용 기술 및 도구
@@ -41,12 +39,11 @@
 ### [시연 영상](https://youtu.be/b6XVkd0xc-E?si=vMBVltpWKHP4UM11)
 <br>
 
-## 🕹️Direct2D 브로타토 모작
+## 🕹️Direct2D 브로타토 모작 ([상세내용]())
 
 > 작업 기간 - (2025.02 ~ 2025.03)(3주)<br>
 > 참여 인원 - 2인
 
-## [상세내용]()
 
 ### 사용 기술 및 도구
 - Direct2D, C++, Git, FMOD
@@ -62,12 +59,11 @@
 ### [시연 영상](https://youtu.be/d-VZS1AdvtA?si=LsgWayJvOPfWndK6)
 <br>
 
-## ⚔️Unity 프로젝트 아글라이아
+## ⚔️Unity 프로젝트 아글라이아 ([상세내용]())
 
 > 작업 기간 - (2024.10 ~ 2024.12)(3달)<br>
 > 참여 인원 - 3인
 
-## [상세내용]()
 
 ### 사용 기술 및 도구
 - Unity, C#, Plastic SCM, Blender
@@ -82,12 +78,11 @@
 ### [시연 영상](https://youtu.be/D69DiS6V-uI?si=19k-QeCQU1Tfo820)
 <br>
 
-## 🕹️Unity 프로젝트 정명
+## 🕹️Unity 프로젝트 정명 ([상세내용]())
 
 > 작업 기간 - (2023.06 ~ 2024.08)(1년 2개월)<br>
 > 참여 인원 - 2인
 
-## [상세내용]()
 
 ### 사용 기술 및 도구
 - Unity, C#, Plastic SCM
