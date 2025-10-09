@@ -20,7 +20,7 @@
 ## ⚔️DirectX11 이터널 리턴 모작 ([상세내용](https://github.com/HyangRim/Game-Client-Portfoilo/blob/main/DETAIL.md#%EF%B8%8F-%EC%9D%B4%ED%84%B0%EB%84%90-%EB%A6%AC%ED%84%B4-%EB%AA%A8%EC%9E%91-1))
 
 <img width="890" height="556" alt="Image" src="https://github.com/user-attachments/assets/f19737e0-72f7-4a14-92c7-3538d5a99864" />
-<br>
+<br><br>
 
 > 작업 기간 - (2025.06 ~ 2025.08)(2달 반)<br>
 > 참여 인원 - 2인
@@ -42,7 +42,10 @@
 ### [시연 영상](https://youtu.be/b6XVkd0xc-E?si=vMBVltpWKHP4UM11)
 <br>
 
-## 🕹️Direct2D 브로타토 모작 ([상세내용]())
+## 🕹️Direct2D 브로타토 모작 ([상세내용](https://github.com/HyangRim/Game-Client-Portfoilo/blob/main/DETAIL.md#%EF%B8%8F-brotato-%EB%AA%A8%EC%9E%91))
+
+<img width="721" height="475" alt="Image" src="https://github.com/user-attachments/assets/7b9c223e-61e7-479d-a7d7-6b8385b99b71" />
+<br><br>
 
 > 작업 기간 - (2025.02 ~ 2025.03)(3주)<br>
 > 참여 인원 - 2인
@@ -62,7 +65,10 @@
 ### [시연 영상](https://youtu.be/d-VZS1AdvtA?si=LsgWayJvOPfWndK6)
 <br>
 
-## ⚔️Unity 프로젝트 아글라이아 ([상세내용]())
+## ⚔️Unity 프로젝트 아글라이아 ([상세내용](https://github.com/HyangRim/Game-Client-Portfoilo/blob/main/DETAIL.md#%EF%B8%8F-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%95%84%EA%B8%80%EB%9D%BC%EC%9D%B4%EC%95%84))
+
+<img width="814" height="460" alt="Image" src="https://github.com/user-attachments/assets/e0c6517a-ea49-4bc6-8ee1-2d974f7681e9" />
+<br><br>
 
 > 작업 기간 - (2024.10 ~ 2024.12)(3달)<br>
 > 참여 인원 - 3인

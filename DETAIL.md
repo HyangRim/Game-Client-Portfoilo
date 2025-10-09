@@ -65,7 +65,7 @@
 
 - 개발 기간 : 2025.06 ~ 2025.08
 
-- 개발 인원 : 2인 - 리드 프로그래머로 참여
+- 개발 인원 : 2인 - 프로그래머로 참여
 
 - 개발 환경 및 언어.
     - 언어 : C++ 
@@ -85,7 +85,7 @@
 
 # 🔨주요 개발
 
-## 1.게임엔진 구현
+## 1. 게임엔진 구현
 
 - **DirectX11**를 사용해 렌더링 파이프라인을 구축했음.
 - 컴포넌트 기반 구조를 통해 오브젝트에 기능을 부여함.
@@ -94,38 +94,38 @@
 - **ImGui와 ImGuizmo를 통해 엔진에서 인스턴스를 조작**할 수 있음. 
 - FMOD를 통해 사운드 매니저를 구현하였음. 
 
-## 2.델리게이트 구현 
+## 2. 델리게이트 구현 
 
 - Unity에서 사용한 **C#의 이벤트, 델리게이트 기능**이 유용하다고 생각하였음.
 - 람다와 function, 템플릿, 가변인자를 이용해 델리게이트 기능을 구현.
 - 버튼 클릭, 특정 이벤트에서 사용하도록 구현. 
 
-## 3.전장의 안개 구현
+## 3. 전장의 안개 구현
 
 - **캐릭터에 가까운 일정 범위의 오브젝트만 렌더링**하는 방식으로 구현.
 - 그 밖의 오브젝트는 **특정(맵, 환경) 오브젝트를 제외하면 GPU에 데이터 자체를 올리지 않아 추가적인 최적화.** 
 
-### 4.캐릭터, 몬스터 구조 설계
+### 4. 캐릭터, 몬스터 구조 설계
 
 - 다형성을 고려해 서브타입이 언제나 상위 클래스를 대체할 수 있도록 설계하였음. 
 - 공통적으로 매쉬, 애니메이션, 스테이터스를 가지고 있도록 구현하였음.
 - UI Manager에 공통적인 스테이터스를 이벤트마다 동기화하도록 설계. 
 - **NavMesh를 기반으로 길찾기 알고리즘** 사용. 마우스 클릭으로 이동. 
 
-### 5.셰이더 구현
+### 5. 셰이더 구현
 
 - **디퍼드 렌더링**을 기반으로 G-Buffer(Diffuse, Depth, Albedo등)을 두어 라이팅 연상을 하는 방식
 - 반투명이 필요한 UI는 디퍼드 이후에 렌더링 되도록 구축.
 - **디퍼드 -> 포워드 -> 포스트 프로세싱**의 큰 맥락을 가지고 있음.
 - **외곽선은 G-Buffer의 padding공간을 이용해 외곽선이 필요한이 필요한 오브젝트를 인식한 이후, 외곽선 필터를 이용해 생성.**
 
-### 6.캐릭터 - 비앙카, 몬스터 - 늑대, 알파 구현 
+### 6. 캐릭터 - 비앙카, 몬스터 - 늑대, 알파 구현 
 
 - **비앙카의 스킬(Q,W,E,R) 구현하고, 그에 맞는 FSM 설계.**
 - **늑대와 알파의 스킬 구현, 그에 맞는 FSM 설계.**
 - 레벨, HP와 같은 인게임 UI 구현하여 스크립트 컴포넌트로 부착. 
 
-### 7.메인 화면 UI 구성.
+### 7. 메인 화면 UI 구성.
 
 - 인게임 플레이에서 플레이어, 몬스터 위의 Bar형태 UI(HP, 레벨, 이름 표시) 제작. 
 - **인벤토리에 재료가 있을 시, 제작할 수 있는 아이템 버튼이 화면에 생성. 클릭 시 아이템 제작. 혹은 'Z'키를 누를 시 가장 우선 순위가 높은 아이템 제작.**
@@ -163,9 +163,9 @@
 
 ### **📄문제 상황 및 분석**
 
-<img width="1326" height="621" alt="Image" src="https://github.com/user-attachments/assets/28471450-b022-4b08-8d5d-99cb7c123a05" />
+<img width="660" height="310" alt="Image" src="https://github.com/user-attachments/assets/28471450-b022-4b08-8d5d-99cb7c123a05" />
 
-<img width="700" height="120" alt="Image" src="https://github.com/user-attachments/assets/4ba292a8-b58a-4a74-ae75-7b8b4666d897" />
+<img width="500" height="80" alt="Image" src="https://github.com/user-attachments/assets/4ba292a8-b58a-4a74-ae75-7b8b4666d897" />
 
 - 캐릭터의 이동은 마우스로 도착 지점을 클릭해 NavMesh를 사용한 길찾기 알고리즘을 사용함. 
 - 길찾기 과정에서 **출발지와 도착지가 멀어질수록 알고리즘의 수행시간이 늘어나 렉이 걸리는 문제**가 발생했음. 
@@ -176,16 +176,17 @@
 2. **맵 분할(Cell 구조)를 사용하면 시간 복잡도를 O(N) -> O(N / CellSize)로 줄일 수 있지 않을까 생각.**
 3. **Hash Map을 사용한 Grid 구조**로 검색할 삼각형의 갯수를 줄임 
 
-<img width="879" height="633" alt="Image" src="https://github.com/user-attachments/assets/99cc9e62-9240-471b-a4ba-812aa6aa62a3" />
+<img width="600" height="433" alt="Image" src="https://github.com/user-attachments/assets/99cc9e62-9240-471b-a4ba-812aa6aa62a3" />
 <br>
 
 ### **🔨결과**
 
 - 1. 전수 조사 알고리즘
-<img width="550" height="100" alt="Image" src="https://github.com/user-attachments/assets/500daca5-520b-430e-9e00-b3a506536524" />
-<br>
+<img width="385" height="70" alt="Image" src="https://github.com/user-attachments/assets/500daca5-520b-430e-9e00-b3a506536524" />
+<br></br>
+
 - 2. Grid 구조 알고리즘 
-<img width="550" height="100" alt="Image" src="https://github.com/user-attachments/assets/f4eb90ff-45eb-4bf6-995f-1e13665f778a" />
+<img width="385" height="70" alt="Image" src="https://github.com/user-attachments/assets/f4eb90ff-45eb-4bf6-995f-1e13665f778a" />
 
 - 전수 조사 방식에서 Grid 방식으로 탐색 구조를 개선한 결과, 테스트 환경에서 **396ms -> 25ms로 약 15.6배의 성능 향상**을 이루어냄. 
 
@@ -237,10 +238,230 @@
 # 📑코드 샘플 
 
 핵심, 중요 코드라고 생각되는 부분입니다. 
-## [중요 코드](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%EC%9D%B4%ED%84%B0%EB%84%90%20%EB%A6%AC%ED%84%B4%20%EB%AA%A8%EC%9E%91)
+## [중요 코드 링크](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%EC%9D%B4%ED%84%B0%EB%84%90%20%EB%A6%AC%ED%84%B4%20%EB%AA%A8%EC%9E%91)
+<br>
 
 # 🕹️ Brotato 모작
 
+<img width="721" height="475" alt="Image" src="https://github.com/user-attachments/assets/7b9c223e-61e7-479d-a7d7-6b8385b99b71" />
+
+<br>
+
+- 소개 영상 : [YouTube Link](https://youtu.be/d-VZS1AdvtA?si=-y4atUailfnU3xqN)
+
+- 장르 : 액션, 캐주얼, 탄막 슈팅, 로그라이크
+
+- 개발 기간 : 2025.02 ~ 2025.03(3주)
+
+- 개발 인원 : 2인 - 프로그래머로 참여
+
+- 개발 환경 및 언어.
+    - 언어 : C++ 
+    - 사용 툴 : **Direct2D**, FMOD, Git
+
+# 📝게임 개요 
+
+`브로타토`는 **캐릭터를 골라, 스테이지를 클리어하여 해금요소를 해금하는 로그라이크** 게임입니다. <br>
+플레이어는 **스테이지를 진행하며 몬스터를 잡아, 특성과 아이템을 열어 살아남는 방식**의 게임입니다.  
+
+## ⚙️게임 구조
+
+1. 플레이어는 **다양한 캐릭터 중 하나**를 고릅니다. 
+2. **정해진 스테이지를 골라 웨이브(20웨이브까지) 진행하며 몬스터를 처치해 살아남는 것**이 목표입니다. 
+3. **몬스터를 잡아 레벨을 올리거나, 재화를 얻어 아이템을 강화**합니다. 
+
+# 🔨주요 개발
+
+## 1.게임 프레임워크 구현
+
+- **WINAPI, Direct2D**를 사용해 게임을 렌더링 함. 
+- 컴포넌트 기반 구조를 통해 오브젝트에 기능을 부여함.
+- **트랜스폼, 충돌, 물리, 이벤트 후처리** 등의 기능을 구현하였음.
+- 팩토리 패턴을 통해 웨이브에서 몬스터를 생성.  
+- FMOD를 통해 사운드 매니저를 구현하였음. 
+
+## 2. 몬스터 AI 구현
+
+- FSM을 통해 몬스터의 AI를 구현하였음.
+- **삼각함수, 단위 벡터 연산, 선형 보간을 통해 몬스터의 인공지능과 움직임**을 구현. 
+
+## 3. 캐릭터, 무기 구현
+
+- W,A,S,D를 통해 캐릭터를 이동할 수 있음.
+- 캐릭터의 인벤토리(무기 장착)은 총 6개, 무기는 한 웨이브를 클리어 했을 때 삭제/교체 가능. 
+- 무기는 **주어진 알고리즘(가까운 적, HP가 높은 적)에 따라 우선순위**를 따라 몬스터를 공격.
+- 몬스터를 관통하는 무기, 총알이 N번 튕기는 무기등 다양한 무기 구현. 
+
+# 🛠️문제 해결
+
+## 1. 이벤트 후처리 댕글링 포인터 에러
+
+### **📄문제 상황 및 분석**
+
+<img width="500" height="375" alt="Image" src="https://github.com/user-attachments/assets/034a82f4-e295-4d3b-b038-d1a144ca1128" />
+<br>
+<img width="450" height="150" alt="Image" src="https://github.com/user-attachments/assets/eefdfb3c-bd0d-4977-ab4b-1f04f65f9033" />
+<img width="350" height="170" alt="Image" src="https://github.com/user-attachments/assets/936412e9-e35d-4f32-b3f0-88755715587e" />
+
+- 프레임 워크에서 충돌 처리는 **2중 For문으로 서로의 Collision에 충돌 함수**를 불러오는 방식.
+- 충돌했을 때, 총알과 몬스터가 **삭제 명령을 내렸을 때, 한 프레임에 2번 삭제 명령을 내려 해제된 주소값을 다시 접근하는 이슈**가 생김
+
+### **🧩접근**
+
+1. 삭제 후처리 이벤트에 **주소를 넣을 때마다 중복 검사를 하려고 하였으나, 시간 복잡도가 O(N)**이라 비효율적이라고 판단됨. 
+2. 조건을 정의하였을 때. 
+  - 1프레임에 **삭제할 메모리 주소는 유일**해야만 함. 
+  - 검색이 빨라야 하는 구조.
+3. 그 구조를 만족하는 자료구조는 Hash Set(unordered_set)이라고 생각하여 채택. 
+
+<img width="550" height="180" alt="Image" src="https://github.com/user-attachments/assets/04ed0d77-530a-4505-a9e2-12b837b8de41" />
+<img width="362" height="120" alt="Image" src="https://github.com/user-attachments/assets/a7aeeb0b-d0e4-4a58-8919-e6bf796b1230" />
+
+### **🔨결과**
+
+- **한 프레임에 중복된 메모리 주소에 접근하지 않는 안정성**을 얻음.
+- **중복 검사를 O(1)에 할 수 있는 시간적인 효율성**도 충족하였음. 
+
+## 2. 타일 렌더링 최적화
+
+### **📄문제 상황 및 분석**
+
+<img width="650" height="183" alt="Image" src="https://github.com/user-attachments/assets/4fedeea5-acbe-4357-bccf-254c10193ed7" />
+
+- 시스템 상, 한 스테이지마다 배경이 자동으로 재생성되어 랜덤성을 가짐.
+- 즉, **스테이지마다 정해진 알고리즘에 따라 타일을 조립하여 맵을 랜덤하게 생성**하는 구조.
+- 예상 성능에 비해 **FPS가 낮게 나오는 이슈가 있었고, 이후 많은 오브젝트가 등장하면 성능적인 이슈**가 발생한다고 생각함. 
+
+### **🧩접근**
+
+<img width="600" height="210" alt="Image" src="https://github.com/user-attachments/assets/2c6d1fdc-8f0d-4a0e-997e-3ce7c80b3ea2" />
+<img width="500" height="230" alt="Image" src="https://github.com/user-attachments/assets/174705c9-9f86-4ac7-ba01-ec2faf7f7f5a" />
+<img width="500" height="170" alt="Image" src="https://github.com/user-attachments/assets/54ad0bb6-9334-4269-998f-dfc1250d1364" />
+
+1. 디버깅 결과, **1296개의 타일이 1296개의 드로우 콜**을 불러 성능 낭비를 이루어내고 있었음. 
+2. 드로우 콜을 최대한 줄이기 위한 방법으로, **스테이지의 시작에 1296개의 타일로 1개의 커다란 캔버스를 제작하는 방식**을 적용. 
+
+### **🔨결과**
+
+- Background Map 레이어의 **드로우콜 갯수를 1296 -> 1개로 줄여 600fps -> 1200fps로 약 2배의 프레임 향상**을 이루어냄. 
+
+1. 레이어 병합 X
+
+<img width="450" height="300" alt="Image" src="https://github.com/user-attachments/assets/ed7f95a1-6080-4679-9b83-6524d95d6c74" />
+<br>
+
+2. 레이어 병합 O
+
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/5d929192-9366-4dbb-9e2e-d1df59f5a0fe" />
+
+# 📑코드 샘플 
+
+핵심, 중요 코드라고 생각되는 부분입니다. 
+## [중요 코드 링크](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%EC%9D%B4%ED%84%B0%EB%84%90%20%EB%A6%AC%ED%84%B4%20%EB%AA%A8%EC%9E%91)
+<br>
+
 # ⚔️ 프로젝트 아글라이아
 
+<img width="814" height="460" alt="Image" src="https://github.com/user-attachments/assets/e0c6517a-ea49-4bc6-8ee1-2d974f7681e9" />
+
+<br>
+
+- 소개 영상 : [YouTube Link](https://youtu.be/D69DiS6V-uI?si=FKFFVlaR20EKHWbt)
+
+- 장르 : 쿼터뷰 - TPS
+
+- 개발 기간 : 2024.10 ~ 2025.01
+
+- 개발 인원 : 3인 - 프로그래머, 애니메이터로 참여(디자이너 1, 프로그래머 2)
+
+- 개발 환경 및 언어.
+    - 언어 : C#
+    - 사용 툴 : **Unity**, Plastic SCM, Blender
+
+# 📝게임 개요 
+
+`프로젝트 아글라이아`은 **SD 모델 캐릭터를 사용한 3D TPS 형식의 '이터널 리턴'팬 게임** 입니다. <br>
+플레이어는 **구현된 4명의 캐릭터 중 하나를 선택해 PVE, PVP방식으로 상대와 전투**하는 게임입니다.  
+
+## ⚙️게임 구조
+
+1. 플레이어는 **4명 캐릭터(카티야, 셀린, 헤이즈, 띠아) 중 하나**를 고릅니다. 모든 캐릭터는 이동속도, HP, 공격속도, 공격력, 스킬이 다릅니다. 
+2. PVE, PVP를 선택합니다. 
+3. PVE는 인공지능 몬스터를 상대로 스테이지를 클리어하는 방식으로 구성되어 있습니다. 
+4. PVP는 로비, 방 시스템을 통해 타 플레이어와 전투할 수 있으며, 실시간 동기화를 통해 싸워 상대방의 HP를 0로 만드는 게 목표입니다. 
+
+# 🔨주요 개발
+
+## 1. 캐릭터(카티야, 셀린, 헤이즈, 띠아) 구현 
+- **이동, 기본 공격등을 포함한 부모 클래스 제작.** 
+- **블렌드 트리를 사용한 애니메이션 상태 관리**
+- 각 캐릭터의 **고유 스킬 구현**
+  * 카티야 -> 백스탭(벽 뛰어넘기 가능).
+  * 셀린 -> 원형으로 밀쳐내는 폭탄.
+  * 헤이즈 -> 로켓 모드로 상태 전환. 로켓 모드시 공격이 벽을 통과할 수 있으며, 선형적으로 투사체 속도 증가. 
+  * 띠아 -> 원형 내부에 있는 적에게 N초 스턴.
+
+## 2. UI 연동.
+- Timer 시스템으로 중앙 상단에 현재 스테이지의 시간 경과를 확인 가능.
+- 선택한 캐릭터의 초상화가 좌하단에 표시.
+- 우하단에 선택한 캐릭터의 고유 스킬 표시, 스킬 쿨타임 표시. 
+
+## 3. Photon을 통한 PVP 네트워크 구현 보조. 
+
+- Photon Network를 통한 로비 시스템 구현. (플레이어 이름, 방 이름 중복하지 않게 처리)
+
+## 4. 리깅, 스키닝, 애니메이션 제작. 
+
+- Blender를 통한 캐릭터의 리깅, 스키닝 작업(동일 본). 
+- 각 캐릭터의 Idle, Run, Skill등 애니메이션 제작. 
+
+# 🛠️문제 해결
+
+## 1. 카티야 백스탭 도착지점 문제.
+
+### **📄문제 상황 및 분석**
+
+- 카티야의 백스탭은 벽을 넘을 수 있는 스킬로 기획되었음.
+- 하지만, 도착지점에 벽이 있다면 그에 대한 판정은 어떻게 해야할지 이슈가 발생.
+
+<img width="567" height="315" alt="Image" src="https://github.com/user-attachments/assets/b32db048-8934-483a-9a08-40f6f37f2cd6" />
+
+### **🧩접근**
+
+1. 캐릭터 → 도착지점 방향으로 Raycast 발사 → 첫 번째 충돌 지점으로 이동
+  * 문제점: **캐릭터 - 벽A - (빈 공간) - 도착지점 상황에서 벽A 앞에 멈춤.** 
+  * 벽A 뒤에 이동 가능한 공간이 있으나, 이동하지 않음. 
+2. 도착지점 → 캐릭터 방향으로 Raycast 발사(목표 지점이 벽 너머에 있는지 확인하여 이동 제한)
+  * 문제점: **캐릭터 - 벽A - 벽B - 도착지점 상황에서 벽A와 벽B 사이의 이동 가능한 공간을 무시**함.
+  * 목표 지점의 유효성만 확인할 뿐, 중간 경로의 공간을 탐색하지 못함.
+
+<img width="522" height="283" alt="Image" src="https://github.com/user-attachments/assets/d7a4d112-5c38-4ef8-bf65-55c3cb5235f7" />
+
+3. **양방향 Raycast + 중간 공간 탐색**
+  * **1단계: 캐릭터 → 도착지점 (전방 충돌 감지, 전방 충돌 위치 저장).**
+  * **2단계: 도착지점 → 캐릭터 (목표 지점이 벽 너머인지 확인, 후방 충돌 위치 저장).**
+  * **3단계: 후방 충돌 위치 → 도착지점 방향 (남은 거리만큼 추가 탐색, 최종 이동 가능 지점 계산).**
+  * 캐릭터가 벽에 끼거나 벽을 관통하지 않는 안전한 이동 보장.
+  * 도착점 -> 시작점으로 가는 도중 충돌이 감지되면 충돌 지점 저장. 만약 충돌이 감지되면, 목표점이 벽 너머에 있다라고 확인 가능. 
+  * 여러 벽 사이에 있는 이동 가능한 최대 거리를 정확히 계산 가능.
+
+### **🔨결과**
+
+여러 벽이 있을 때, 벽에 끼거나 벽을 관통하지 않는 안전한 이동을 보장할 수 있음. 
+
+# 📑코드 샘플 
+
+핵심, 중요 코드라고 생각되는 부분입니다. 
+## [중요 코드 링크](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%EC%9D%B4%ED%84%B0%EB%84%90%20%EB%A6%AC%ED%84%B4%20%EB%AA%A8%EC%9E%91)
+
 # 🕹️ 프로젝트 정명
+
+# 📝게임 개요 
+
+## ⚙️게임 구조
+
+# 🔨주요 개발
+
+# 🛠️문제 해결
+
+# 📑코드 샘플 
