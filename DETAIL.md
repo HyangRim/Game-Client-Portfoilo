@@ -525,4 +525,4 @@
 # 📑코드 샘플 
 
 핵심, 중요 코드라고 생각되는 부분입니다. 
-## [중요 코드 링크](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%EC%9D%B4%ED%84%B0%EB%84%90%20%EB%A6%AC%ED%84%B4%20%EB%AA%A8%EC%9E%91)
+## [중요 코드 링크](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A0%95%EB%AA%85)

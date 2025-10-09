@@ -87,7 +87,7 @@
 ### [시연 영상](https://youtu.be/D69DiS6V-uI?si=19k-QeCQU1Tfo820)
 <br>
 
-## 🕹️Unity 프로젝트 정명 ([상세내용]())
+## 🕹️Unity 프로젝트 정명 ([상세내용](https://github.com/HyangRim/Game-Client-Portfoilo/blob/main/DETAIL.md#%EF%B8%8F-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A0%95%EB%AA%85))
 
 > 작업 기간 - (2023.06 ~ 2024.08)(1년 2개월)<br>
 > 참여 인원 - 2인
