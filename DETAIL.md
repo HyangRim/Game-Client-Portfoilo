@@ -12,8 +12,8 @@
         <br>
         <p align="left">
           📖 <a href="#게임-개요">게임 개요</a><br>
-          🔨 <a href="#%EF%B8%8F문제-해결">주요 개발</a><br>
-          🛠️ <a href="#문제-해결">문제 해결</a><br>
+          🔨 <a href="#주요-개발">주요 개발</a><br>
+          🛠️ <a href="#%EF%B8%8F문제-해결">문제 해결</a><br>
           📑 <a href="#코드-샘플">코드 샘플</a>
         </p>
       </td>
@@ -413,8 +413,6 @@
     - 언어 : C#
     - 사용 툴 : **Unity**, Plastic SCM, Blender
 
-<summary><b>📋 섹션 바로가기</b></summary>
-
 <table>
   <tr>
     <td>
@@ -524,8 +522,6 @@
 - 개발 환경 및 언어.
     - 언어 : C#
     - 사용 툴 : **Unity**, Git
-
-<summary><b>📋 섹션 바로가기</b></summary>
 
 <table>
   <tr>
