@@ -3,7 +3,6 @@
 
 ## <b> 주요 기술 - C++, DirectX11, Unity </b>
 
-
 ## 목차 
 <table>
   <tbody>
@@ -44,14 +43,13 @@
         <p align="left">
           📖 <a href="#게임-개요-3">게임 개요</a><br>
           🔨 <a href="#주요-개발-3">주요 개발</a><br>
-          🛠️ <a href="#EF%B8%8F문제-해결-3">문제 해결</a><br>
+          🛠️ <a href="#%EF%B8%8F문제-해결-3">문제 해결</a><br>
           📑 <a href="#코드-샘플-3">코드 샘플</a>
         </p>
       </td>
     </tr>
   </tbody>
 </table>
-
 
 # ⚔️ 이터널 리턴 모작 
 
