@@ -9,42 +9,42 @@
   <tbody>
     <tr>
       <td valign="top" width="25%" align="center">
-        <h3>⚔️ 이터널 리턴 모작</h3>
+        <a href="#%EF%B8%8F-이터널-리턴-모작-1"><h3>⚔️ 이터널 리턴 모작</h3></a>
         <br>
         <p align="left">
           📖 <a href="#게임-개요">게임 개요</a><br>
-          🔨 <a href="#주요-개발">주요 개발</a><br>
+          🔨 <a href="#%EF%B8%8F문제-해결">주요 개발</a><br>
           🛠️ <a href="#문제-해결">문제 해결</a><br>
           📑 <a href="#코드-샘플">코드 샘플</a>
         </p>
       </td>
       <td valign="top" width="25%" align="center">
-        <h3>🎯 Brotato 모작</h3>
+        <a href="#%EF%B8%8F-brotato-모작"><h3>🎯 Brotato 모작</h3></a>
         <br>
         <p align="left">
           📖 <a href="#게임-개요-1">게임 개요</a><br>
           🔨 <a href="#주요-개발-1">주요 개발</a><br>
-          🛠️ <a href="#문제-해결-1">문제 해결</a><br>
+          🛠️ <a href="#%EF%B8%8F문제-해결-1">문제 해결</a><br>
           📑 <a href="#코드-샘플-1">코드 샘플</a>
         </p>
       </td>
       <td valign="top" width="25%" align="center">
-        <h3>✨ 프로젝트 아글라이아</h3>
+        <a href="#%EF%B8%8F-프로젝트-아글라이아"><h3>✨ 프로젝트 아글라이아</h3></a>
         <br>
         <p align="left">
           📖 <a href="#게임-개요-2">게임 개요</a><br>
           🔨 <a href="#주요-개발-2">주요 개발</a><br>
-          🛠️ <a href="#문제-해결-2">문제 해결</a><br>
+          🛠️ <a href="#%EF%B8%8F문제-해결-2">문제 해결</a><br>
           📑 <a href="#코드-샘플-2">코드 샘플</a>
         </p>
       </td>
       <td valign="top" width="25%" align="center">
-        <h3>🌟 프로젝트 정명</h3>
+        <a href="#%EF%B8%8F-프로젝트-정명"><h3>🌟 프로젝트 정명</h3></a>
         <br>
         <p align="left">
           📖 <a href="#게임-개요-3">게임 개요</a><br>
           🔨 <a href="#주요-개발-3">주요 개발</a><br>
-          🛠️ <a href="#문제-해결-3">문제 해결</a><br>
+          🛠️ <a href="#EF%B8%8F문제-해결-3">문제 해결</a><br>
           📑 <a href="#코드-샘플-3">코드 샘플</a>
         </p>
       </td>
@@ -70,6 +70,17 @@
 - 개발 환경 및 언어.
     - 언어 : C++ 
     - 사용 툴 : **DirectX11**, FMOD, Imgui, Imguizmo
+
+<summary><b>📋 섹션 바로가기</b></summary>
+
+- [📝 게임 개요](#게임-개요)
+- [🔨 주요 개발](#주요-개발)
+- [🛠️ 문제 해결](#%EF%B8%8F문제-해결)
+  - [하이브리드 렌더링](#1-하이브리드-렌더링)
+  - [NavMesh 최적화](#2-navmesh-최적화)
+  - [쿼드 트리 적용](#3-쿼드-트리-적용)
+  - [멀티스레드 로딩](#4-멀티스레드-로딩)
+- [📑 코드 샘플](#코드-샘플)
 
 # 📝게임 개요 
 
@@ -226,6 +237,7 @@
 1. 초기 대기 시간에서 **CPU의 유후시간을 발생시키는 부분이 리소스 로딩(I/O)으로 파악**함. 
 2. CPU의 유후를 줄일 방법은 I/O 집약적 작업을 다른 스레드로 맡기는 부분이라고 생각하였음. 
 3. 다른 작업과 별개로 분리할 수 있는 **UI 리소스 로딩/생성 부분을 다른 스레드로 분리하여, 멀티 스레드를 사용.**
+4. CRITICAL_SECTION을 사용해서 동기화 이슈를 관리. 
 
 ### **🔨결과**
 
@@ -240,6 +252,8 @@
 핵심, 중요 코드라고 생각되는 부분입니다. 
 ## [중요 코드 링크](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%EC%9D%B4%ED%84%B0%EB%84%90%20%EB%A6%AC%ED%84%B4%20%EB%AA%A8%EC%9E%91)
 <br>
+
+<p align="right"><a href="#목차">⬆️ 목차로 돌아가기</a></p>
 
 # 🕹️ Brotato 모작
 
@@ -258,6 +272,16 @@
 - 개발 환경 및 언어.
     - 언어 : C++ 
     - 사용 툴 : **Direct2D**, FMOD, Git
+
+<summary><b>📋 섹션 바로가기</b></summary>
+
+- [📝 게임 개요](#게임-개요-1)
+- [🔨 주요 개발](#주요-개발-1)
+- [🛠️ 문제 해결](#%EF%B8%8F문제-해결-1)
+  - [이벤트 후처리 댕글링 포인터 에러](#1-이벤트-후처리-댕글링-포인터-에러)
+  - [타일 렌더링 최적화](#2-타일-렌더링-최적화)
+- [📑 코드 샘플](#코드-샘플-1)
+
 
 # 📝게임 개요 
 
@@ -360,6 +384,8 @@
 ## [중요 코드 링크](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%EC%9D%B4%ED%84%B0%EB%84%90%20%EB%A6%AC%ED%84%B4%20%EB%AA%A8%EC%9E%91)
 <br>
 
+<p align="right"><a href="#목차">⬆️ 목차로 돌아가기</a></p>
+
 # ⚔️ 프로젝트 아글라이아
 
 <img width="814" height="460" alt="Image" src="https://github.com/user-attachments/assets/e0c6517a-ea49-4bc6-8ee1-2d974f7681e9" />
@@ -377,6 +403,15 @@
 - 개발 환경 및 언어.
     - 언어 : C#
     - 사용 툴 : **Unity**, Plastic SCM, Blender
+
+<summary><b>📋 섹션 바로가기</b></summary>
+
+- [📝 게임 개요](#게임-개요-2)
+- [🔨 주요 개발](#주요-개발-2)
+- [🛠️ 문제 해결](#문제-해결-2)
+  - [카티야 백스탭 도착지점 문제](#%EF%B8%8F문제-해결-2)
+- [📑 코드 샘플](#코드-샘플-2)
+
 
 # 📝게임 개요 
 
@@ -454,6 +489,8 @@
 핵심, 중요 코드라고 생각되는 부분입니다. 
 ## [중요 코드 링크](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%95%84%EA%B8%80%EB%9D%BC%EC%9D%B4%EC%95%84)
 
+<p align="right"><a href="#목차">⬆️ 목차로 돌아가기</a></p>
+
 # 🕹️ 프로젝트 정명
 
 <img width="638" height="296" alt="Image" src="https://github.com/user-attachments/assets/2abcc098-90d4-4261-9b20-4ea9d679936a" />
@@ -471,6 +508,15 @@
 - 개발 환경 및 언어.
     - 언어 : C#
     - 사용 툴 : **Unity**, Git
+
+<summary><b>📋 섹션 바로가기</b></summary>
+
+- [📝 게임 개요](#게임-개요-3)
+- [🔨 주요 개발](#주요-개발-3)
+- [🛠️ 문제 해결](#%EF%B8%8F문제-해결-3)
+  - [다국어 지원 문제](#1-다국어-지원-문제)
+- [📑 코드 샘플](#코드-샘플-3)
+
 
 # 📝게임 개요 
 
@@ -526,3 +572,5 @@
 
 핵심, 중요 코드라고 생각되는 부분입니다. 
 ## [중요 코드 링크](https://github.com/HyangRim/Game-Client-Portfoilo/tree/main/Code/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A0%95%EB%AA%85)
+
+<p align="right"><a href="#목차">⬆️ 목차로 돌아가기</a></p>
